@@ -1,0 +1,14 @@
+package com.restful.daily_click.config;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class RfcConfig {
+    @Bean
+    public Integer setRfc()
+    {
+        System.setProperty("tomcat.util.http.parser.HttpParser.requestTargetAllow", "|{}");
+        return 0;
+    }
+}

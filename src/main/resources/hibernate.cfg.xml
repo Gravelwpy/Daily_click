@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="connection.url">jdbc:mysql://101.37.168.47/location</property>
+    <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+      <mapping class="com.restful.daily_click.entity.AccountEntity"/>
+      <mapping class="com.restful.daily_click.entity.StudentsEntity"/>
+      <mapping class="com.restful.daily_click.entity.TeachersEntity"/>
+    <mapping class="com.restful.daily_click.entity.ClassInfoEntity"/>
+      <mapping class="com.restful.daily_click.entity.ClassRoomEntity"/>
+      <mapping class="com.restful.daily_click.entity.CoursesEntity"/>
+      <mapping class="com.restful.daily_click.entity.InformationEntity"/>
+    <mapping class="com.restful.daily_click.entity.MessageEntity"/>
+      <mapping class="com.restful.daily_click.entity.InformationEntity"/>
+      <mapping class="com.restful.daily_click.entity.SystemAdminEntity"/>
+      <mapping class="com.restful.daily_click.entity.SignItemEntity"/>
+      <mapping class="com.restful.daily_click.entity.SignRecordEntity"/>
+    <mapping class="com.restful.daily_click.entity.LocationInfoEntity"/>
+    <mapping class="com.restful.daily_click.entity.WifiRecordEntity"/>
+      <mapping class="com.restful.daily_click.entity.WifiDetailsEntity"/>
+      <mapping class="com.restful.daily_click.entity.WifiInfoEntity"/>
+    <mapping class="com.restful.daily_click.entity.TestRecordEntity"/>
+    <mapping class="com.restful.daily_click.entity.WifiTestRecordDetailEntity"/>
+    <mapping class="com.restful.daily_click.entity.ClassRoomSeatEntity"/>
+    <mapping class="com.restful.daily_click.entity.SpGroupEntity"/>
+      <mapping class="com.restful.daily_click.entity.QuestionsEntity"/>
+      <mapping class="com.restful.daily_click.entity.ClassMajorityEntity"/>
+      <mapping class="com.restful.daily_click.entity.GroupEntity"/>
+      <mapping class="com.restful.daily_click.entity.GroupNumberEntity"/>
+      <mapping class="com.restful.daily_click.entity.GroupItemEntity"/>
+      <mapping class="com.restful.daily_click.entity.SignLeaveEntity"/>
+      <mapping class="com.restful.daily_click.entity.SignResultEntity"/>
+      <!-- <property name="connection.username"/> -->
+    <!-- <property name="connection.password"/> -->
+
+    <!-- DB schema will be updated if needed -->
+    <!-- <property name="hibernate.hbm2ddl.auto">update</property> -->
+  </session-factory>
+</hibernate-configuration>

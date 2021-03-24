@@ -1,0 +1,52 @@
+[2019-07-24 20:43:30.681] INFO [main] StartupInfoLogger.java:50 - Starting DailyClickApplication on DESKTOP-CGJCUCU with PID 8932 (D:\Daily_click\target\classes started by hp in D:\Daily_click)
+[2019-07-24 20:43:30.682] INFO [main] SpringApplication.java:646 - No active profile set, falling back to default profiles: default
+[2019-07-24 20:43:31.706] INFO [main] RepositoryConfigurationDelegate.java:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+[2019-07-24 20:43:31.759] INFO [main] RepositoryConfigurationDelegate.java:182 - Finished Spring Data repository scanning in 46ms. Found 1 repository interfaces.
+[2019-07-24 20:43:32.020] INFO [main] PostProcessorRegistrationDelegate.java:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b5fe75a6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2019-07-24 20:43:32.236] INFO [main] TomcatWebServer.java:90 - Tomcat initialized with port(s): 8080 (http)
+[2019-07-24 20:43:32.249] INFO [main] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2019-07-24 20:43:32.257] INFO [main] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2019-07-24 20:43:32.257] INFO [main] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.21]
+[2019-07-24 20:43:32.263] INFO [main] DirectJDKLog.java:173 - Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+[2019-07-24 20:43:32.263] INFO [main] DirectJDKLog.java:173 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[2019-07-24 20:43:32.264] INFO [main] DirectJDKLog.java:173 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[2019-07-24 20:43:32.268] INFO [main] DirectJDKLog.java:173 - OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+[2019-07-24 20:43:32.391] INFO [main] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2019-07-24 20:43:32.392] INFO [main] ServletWebServerApplicationContext.java:283 - Root WebApplicationContext: initialization completed in 1664 ms
+[2019-07-24 20:43:32.529] INFO [main] HikariDataSource.java:110 - HikariPool-1 - Starting...
+[2019-07-24 20:43:33.353] INFO [main] HikariDataSource.java:123 - HikariPool-1 - Start completed.
+[2019-07-24 20:43:33.496] INFO [main] Version.java:46 - HHH000412: Hibernate Core {5.3.10.Final}
+[2019-07-24 20:43:33.496] INFO [main] Environment.java:213 - HHH000206: hibernate.properties not found
+[2019-07-24 20:43:33.598] INFO [main] JavaReflectionManager.java:49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[2019-07-24 20:43:33.717] INFO [main] Dialect.java:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[2019-07-24 20:43:34.155] INFO [main] AbstractEntityManagerFactoryBean.java:415 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2019-07-24 20:43:34.568] INFO [main] ExecutorConfigurationSupport.java:171 - Initializing ExecutorService 'applicationTaskExecutor'
+[2019-07-24 20:43:34.819] INFO [main] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8080"]
+[2019-07-24 20:43:34.842] INFO [main] TomcatWebServer.java:202 - Tomcat started on port(s): 8080 (http) with context path ''
+[2019-07-24 20:43:34.844] INFO [main] StartupInfoLogger.java:59 - Started DailyClickApplication in 4.609 seconds (JVM running for 5.426)
+[2019-07-24 20:45:26.565] INFO [main] StartupInfoLogger.java:50 - Starting DailyClickApplication on DESKTOP-CGJCUCU with PID 13132 (D:\Daily_click\target\classes started by hp in D:\Daily_click)
+[2019-07-24 20:45:26.568] INFO [main] SpringApplication.java:646 - No active profile set, falling back to default profiles: default
+[2019-07-24 20:45:27.464] INFO [main] RepositoryConfigurationDelegate.java:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+[2019-07-24 20:45:27.524] INFO [main] RepositoryConfigurationDelegate.java:182 - Finished Spring Data repository scanning in 52ms. Found 1 repository interfaces.
+[2019-07-24 20:45:27.810] INFO [main] PostProcessorRegistrationDelegate.java:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3d02f33c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2019-07-24 20:45:28.037] INFO [main] TomcatWebServer.java:90 - Tomcat initialized with port(s): 8080 (http)
+[2019-07-24 20:45:28.049] INFO [main] DirectJDKLog.java:173 - Initializing ProtocolHandler ["http-nio-8080"]
+[2019-07-24 20:45:28.056] INFO [main] DirectJDKLog.java:173 - Starting service [Tomcat]
+[2019-07-24 20:45:28.056] INFO [main] DirectJDKLog.java:173 - Starting Servlet engine: [Apache Tomcat/9.0.21]
+[2019-07-24 20:45:28.062] INFO [main] DirectJDKLog.java:173 - Loaded APR based Apache Tomcat Native library [1.2.21] using APR version [1.6.5].
+[2019-07-24 20:45:28.062] INFO [main] DirectJDKLog.java:173 - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+[2019-07-24 20:45:28.063] INFO [main] DirectJDKLog.java:173 - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[2019-07-24 20:45:28.065] INFO [main] DirectJDKLog.java:173 - OpenSSL successfully initialized [OpenSSL 1.1.1a  20 Nov 2018]
+[2019-07-24 20:45:28.196] INFO [main] DirectJDKLog.java:173 - Initializing Spring embedded WebApplicationContext
+[2019-07-24 20:45:28.196] INFO [main] ServletWebServerApplicationContext.java:283 - Root WebApplicationContext: initialization completed in 1543 ms
+[2019-07-24 20:45:28.334] INFO [main] HikariDataSource.java:110 - HikariPool-1 - Starting...
+[2019-07-24 20:45:28.896] INFO [main] HikariDataSource.java:123 - HikariPool-1 - Start completed.
+[2019-07-24 20:45:29.029] INFO [main] Version.java:46 - HHH000412: Hibernate Core {5.3.10.Final}
+[2019-07-24 20:45:29.030] INFO [main] Environment.java:213 - HHH000206: hibernate.properties not found
+[2019-07-24 20:45:29.134] INFO [main] JavaReflectionManager.java:49 - HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+[2019-07-24 20:45:29.262] INFO [main] Dialect.java:157 - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+[2019-07-24 20:45:29.716] INFO [main] AbstractEntityManagerFactoryBean.java:415 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2019-07-24 20:45:30.106] INFO [main] ExecutorConfigurationSupport.java:171 - Initializing ExecutorService 'applicationTaskExecutor'
+[2019-07-24 20:45:30.364] INFO [main] DirectJDKLog.java:173 - Starting ProtocolHandler ["http-nio-8080"]
+[2019-07-24 20:45:30.386] INFO [main] TomcatWebServer.java:202 - Tomcat started on port(s): 8080 (http) with context path ''
+[2019-07-24 20:45:30.389] INFO [main] StartupInfoLogger.java:59 - Started DailyClickApplication in 4.13 seconds (JVM running for 4.887)
